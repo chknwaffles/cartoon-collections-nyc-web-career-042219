@@ -13,12 +13,9 @@ def summon_captain_planet(arr)
 end
 
 def long_planeteer_calls(arr)
-  count = 0
   arr.each do |w|
     if w.length > 4
       return true
-    elsif w.length < 4
-      count += 1
     end
   end
   return true
