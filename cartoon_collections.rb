@@ -21,10 +21,7 @@ def long_planeteer_calls(arr)
       count += 1
     end
   end
-  
-  if count == arr.size
-    return false
-  end
+  return true
 end
 
 def find_the_cheese# code an argument here
