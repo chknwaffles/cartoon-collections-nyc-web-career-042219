@@ -6,7 +6,7 @@ def roll_call_dwarves(arr)
 end
 
 def summon_captain_planet(arr)
-  arr.map do |e|
+  arr.map! do |e|
     e.capitalize
     e += "!"
   end
