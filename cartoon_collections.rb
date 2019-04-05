@@ -31,4 +31,5 @@ def find_the_cheese(arr)
       end
     end
   end
+  nil
 end
