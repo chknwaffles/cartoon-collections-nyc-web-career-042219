@@ -17,7 +17,13 @@ def long_planeteer_calls(arr)
   arr.each do |w|
     if w.length > 4
       return true
+    elsif w.length < 4
+      count += 1
     end
+  end
+  
+  if count == arr.length - 1
+    return false
   end
 end
 
