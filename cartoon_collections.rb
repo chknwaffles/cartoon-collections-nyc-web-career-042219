@@ -22,7 +22,7 @@ def long_planeteer_calls(arr)
     end
   end
   
-  if count == arr.length - 1
+  if count == arr.length
     return false
   end
 end
